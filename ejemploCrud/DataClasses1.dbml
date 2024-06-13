@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Proyecto_02" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DAVID-HUAMAN\SQLEXPRESS;Initial Catalog=Proyecto_02;Integrated Security=True" SettingsObjectName="ejemploCrud.Properties.Settings" SettingsPropertyName="Proyecto_02ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ALUMNO" Member="ALUMNO">
+    <Type Name="ALUMNO">
+      <Column Name="Id_Alumno" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Dni" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="ALUMNO_Evaluacion" Member="Evaluacion" ThisKey="Id_Alumno" OtherKey="Alumno" Type="Evaluacion" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOGIN" Member="LOGIN">
+    <Type Name="LOGIN">
+      <Column Name="ID_Usuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Usuario" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Password" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Evaluacion" Member="Evaluacion">
+    <Type Name="Evaluacion">
+      <Column Name="Id_eva" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Curso" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Nota1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nota2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nota3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alumno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ALUMNO_Evaluacion" Member="ALUMNO1" ThisKey="Alumno" OtherKey="Id_Alumno" Type="ALUMNO" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,14 @@
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.Properties.Resources.resources
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.vista.Login.resources
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.csproj.GenerateResource.cache
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\bin\Debug\ejemploCrud.exe.config
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\bin\Debug\ejemploCrud.exe
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\bin\Debug\ejemploCrud.pdb
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.csproj.CopyComplete
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.exe
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.pdb
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.vista.alumno.resources
+C:\Users\HP\Documents\mayo\ejemploCrud\ejemploCrud\obj\Debug\ejemploCrud.vista.indexForm.resources
